@@ -74,6 +74,61 @@ export default function Page() {
         </div>
       </section>
 
+      {/* RESUMEN EJECUTIVO */}
+      <section id="resumen" className="bg-white py-12 border-t">
+        <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+          <div>
+            <h2 className="text-3xl font-bold text-gray-800">Resumen Ejecutivo</h2>
+            <p className="mt-4 text-gray-600 text-lg leading-relaxed">
+              MINERO Premium simplifica la sobrecarga de información en la industria minera.
+              En lugar de navegar entre cientos de reportes, te ofrecemos un boletín semanal con
+              precios, licitaciones y riesgos que importan para tu operación y tus inversiones.
+            </p>
+            <ul className="mt-4 space-y-2 text-gray-600">
+              <li>✔ Precios de metales con contexto</li>
+              <li>✔ Oportunidades de negocio en LATAM</li>
+              <li>✔ Cambios regulatorios y de seguridad</li>
+            </ul>
+          </div>
+          <div className="rounded-2xl bg-gray-50 p-6 shadow">
+            <h3 className="font-semibold text-gray-800 mb-3">Lo que obtienes</h3>
+            <p className="text-sm text-gray-600">
+              Un newsletter accionable y un dashboard simple que te ahorran horas de análisis.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* NOTICIAS CLAVE */}
+      <section id="noticias" className="bg-gray-50 py-12">
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-2xl font-bold text-gray-800 mb-6">Noticias recientes</h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            <article className="rounded-2xl bg-white border p-5 shadow-sm">
+              <h4 className="font-semibold text-gray-800">Alza en precios del cobre</h4>
+              <p className="text-sm text-gray-600 mt-2">
+                La demanda en Asia impulsa un aumento del 2.3% en el cobre. Implicaciones
+                directas para proveedores de maquinaria.
+              </p>
+            </article>
+            <article className="rounded-2xl bg-white border p-5 shadow-sm">
+              <h4 className="font-semibold text-gray-800">Nuevas licitaciones en México</h4>
+              <p className="text-sm text-gray-600 mt-2">
+                El estado de Sonora anuncia proyectos de exploración de litio. Oportunidad
+                para contratistas especializados.
+              </p>
+            </article>
+            <article className="rounded-2xl bg-white border p-5 shadow-sm">
+              <h4 className="font-semibold text-gray-800">Actualización en normativa ESG</h4>
+              <p className="text-sm text-gray-600 mt-2">
+                Nuevos requisitos de reporte en sostenibilidad afectan a operaciones medianas
+                y grandes en LATAM.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
       {/* VALUE */}
       <section id="valor" className="bg-white py-16">
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-4 gap-6">
