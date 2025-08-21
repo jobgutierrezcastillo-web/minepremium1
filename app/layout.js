@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: "MINERO Premium — Inteligencia para la minería de LATAM",
   description: "Boletín premium con análisis, licitaciones y riesgos para el sector minero.",
